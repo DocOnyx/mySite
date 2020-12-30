@@ -1,0 +1,183 @@
+/*****************************TAG SELECTORS**********************************/
+body {
+    margin: 0px;
+    text-align: center;
+    font-family: 'Cormorant', serif;
+    font-size: 1em;
+    color: #40514e;
+
+}
+
+h1 {
+    margin: 100px auto 0 auto;
+    font-family: 'Parisienne', cursive;
+    font-size: 5.625rem;
+    color: #66BFBF;
+}
+
+h2 {
+    font-family: 'Cormorant', serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+    color: #66BFBF;
+}
+
+h3 {
+    font-size: 1.5rem;
+   color: #11999E;
+
+}
+
+a {
+   text-decoration:none;
+}
+
+footer {
+ font-size: 0.7rem;
+ font-color: grey;
+}
+
+hr {
+    border-style: none;
+    border-top-style: dotted;
+    border-top-width: thick;
+    border-color: #6f9eaf;
+    width: 15%;
+    }
+
+/**********************************CLASS SELECTORS******************************/
+
+.top {
+    background-color: #b1e8ed;
+    padding-top: 100px;
+    position:relative;
+
+    /*margin: 0 0 20 0;*/
+}
+
+.middle-container {
+    background-color: #e6f8f9;
+}
+
+.bottom-container {
+    background-color: #66bfbf;
+    padding: 50px 0 20px;
+}
+
+.top-cloud {
+        position: absolute;
+        right: 50px;
+        top: 100px;
+}
+
+.bottom-cloud {
+        position: absolute;
+        top: 250px;
+        left:100px;
+}
+
+.profile-pic {
+    width: 20%;
+    height: 10%;
+    border-radius: 50%;
+    padding-top: 50px;
+
+}
+.pic {
+    width: 25%;
+    height: 15%;
+    border-radius: 50%;
+    padding-top: 20px;
+
+}
+
+.footer-link {
+   color: #004d61;
+   padding-right: 20px;
+   font-size: 1.2rem;
+}
+
+.footer-link:hover {
+    color: #eaf6f6;
+}
+
+.eye {
+    float: left;
+    padding-right: 30px;
+}
+
+.web {
+    float: left;
+    padding-right: 30px;
+}
+
+.python {
+    float: right;
+    padding-left: 30px;
+}
+
+.research {
+    float: right;
+    padding-left: 30px;
+}
+
+.text {
+    color: #006a71;
+    text-decoration: underline;
+}
+
+.mount {
+border-radius: 60% 20%;
+
+}
+
+.bio {
+    font-size: 1.5em;
+    line-height: 2;
+    padding-left: 20px;
+   padding-right: 20px;
+
+}
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+
+.button {
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   height: 50px;
+   line-height: 50px;
+   color: #FFFFFF;
+   font-family: Tahoma;
+   width: 200px;
+   font-size: 1.5rem;
+   font-weight: 100;
+   padding-bottom: 0px;
+   background-color: #11999E;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+   margin-bottom: 10px;
+}
+
+.button:hover {
+   background: #006a71;
+   border: none;
+   -webkit-border-radius: 18px;
+   -moz-border-radius: 18px;
+   border-radius: 18px;
+   text-decoration: none;
+}
+
+.copyright {
+    color: #eaf6f6;
+    font-size: 0.8rem;
+    padding: 20px 0;
+}

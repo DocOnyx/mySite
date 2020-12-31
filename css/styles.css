@@ -74,7 +74,8 @@ hr {
         position: absolute;
         top: 250px;
         left:50px;
-        padding: 10px 10px 0 0;
+        margin-top: 10px;
+        margin-right: 10px;
 }
 
 .profile-pic {
